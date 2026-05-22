@@ -39,7 +39,7 @@ const About: React.FC = () => {
     {
       name: 'Pătru Andrei',
       role: 'DJ',
-      description: 'Cu o pasiune autentică pentru muzică și o cultură muzicală vastă în vârstă de 24 de ani, aduce la fiecare eveniment o latură modernă, plin de energie și rafinament sonor. Deschis către toate stilurile muzicale – de la pop, dance, house și hip-hop, până la muzică de petrecere sau oldies. Mixaje fluide și personalizate, tranziții fine între genuri și o atenție deosebită la detalii fac ca fiecare moment să curgă natural și energic, fără întreruperi.',
+      description: 'Cu o pasiune autentică pentru muzică și o cultură muzicală vastă în vârstă de 25 de ani, aduce la fiecare eveniment o latură modernă, plin de energie și rafinament sonor. Deschis către toate stilurile muzicale – de la pop, dance, house și hip-hop, până la muzică de petrecere sau oldies. Mixaje fluide și personalizate, tranziții fine între genuri și o atenție deosebită la detalii fac ca fiecare moment să curgă natural și energic, fără întreruperi.',
       image: `${import.meta.env.BASE_URL}andrei_1.jpeg`
     },
     {
@@ -51,7 +51,7 @@ const About: React.FC = () => {
     {
       name: 'Rosian Alexandru',
       role: 'Solist și Chitarist',
-      description: 'Având 24 de ani, solist pasionat de chitară și voce, cu experiență muzicală din copilărie, activând de la 7 ani în muzica ușoară, folk, pop, rock, muzică de petrecere.',
+      description: 'Având 25 de ani, solist pasionat de chitară și voce, cu experiență muzicală din copilărie, activând de la 7 ani în muzica ușoară, folk, pop, rock, muzică de petrecere.',
       image: `${import.meta.env.BASE_URL}alex.jpeg`
     }
   ];
