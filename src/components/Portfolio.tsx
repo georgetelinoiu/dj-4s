@@ -38,11 +38,11 @@ const Portfolio: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-accent-500">
               Portofoliul Nostru
             </span>
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-pink-600 mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-accent-500 mx-auto mb-6"></div>
           
           <div className={`max-w-3xl mx-auto transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
             <div className="bg-gray-800 rounded-xl p-8 shadow-lg border border-gray-700">
@@ -71,7 +71,7 @@ const Portfolio: React.FC = () => {
                   href="https://drive.google.com/drive/folders/1TOUmr2QKGIjDnbp7tMr6XND7cpVlhsNS"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-medium py-3 px-8 rounded-full transition-all transform hover:scale-105"
+                  className="inline-flex items-center justify-center bg-gradient-to-r from-purple-600 to-accent-500 hover:from-purple-700 hover:to-accent-700 text-white font-medium py-3 px-8 rounded-full transition-all transform hover:scale-105"
                 >
                   <FolderOpen size={20} className="mr-2" />
                   Vezi Galeria Completă

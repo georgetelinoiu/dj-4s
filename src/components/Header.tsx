@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Music, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -29,11 +29,11 @@ const Header: React.FC = () => {
       }`}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <a href="#" className="flex items-center gap-2 text-xl font-bold">
-          <Music className="text-purple-500" size={28} strokeWidth={2} />
-          <span className="bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">
-            S4 Music Events
+        <a href="#" className="flex flex-col text-xl font-bold">
+          <span>
+            <span className="text-white">S</span><span className="text-accent-500">4</span><span className="text-gray-400">Music</span>
           </span>
+          <span className="text-white">Events</span>
         </a>
 
         {/* Desktop Navigation */}
@@ -55,7 +55,7 @@ const Header: React.FC = () => {
           ))}
           <a
             href="#contact"
-            className="bg-gradient-to-r from-purple-600 to-pink-600 px-6 py-2 rounded-full text-sm uppercase tracking-wider hover:from-purple-700 hover:to-pink-700 transition-all"
+            className="bg-gradient-to-r from-purple-600 to-accent-500 px-6 py-2 rounded-full text-sm uppercase tracking-wider hover:from-purple-700 hover:to-accent-700 transition-all"
           >
             Rezervă Acum
           </a>
@@ -92,7 +92,7 @@ const Header: React.FC = () => {
             ))}
             <a
               href="#contact"
-              className="bg-gradient-to-r from-purple-600 to-pink-600 px-6 py-3 text-center rounded-full text-sm uppercase tracking-wider hover:from-purple-700 hover:to-pink-700 transition-all"
+              className="bg-gradient-to-r from-purple-600 to-accent-500 px-6 py-3 text-center rounded-full text-sm uppercase tracking-wider hover:from-purple-700 hover:to-accent-700 transition-all"
               onClick={() => setMobileMenuOpen(false)}
             >
               Rezervă Acum

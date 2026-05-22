@@ -90,11 +90,11 @@ const Services: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-accent-500">
               Pachete și Servicii
             </span>
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-pink-600 mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-accent-500 mx-auto mb-6"></div>
           <p className="text-gray-300 max-w-2xl mx-auto">
             Alegeți dintre pachetele noastre de DJ și formație live, adaptate pentru diferite evenimente și bugete.
             Toate pachetele pot fi personalizate conform cerințelor dumneavoastră specifice.
@@ -111,7 +111,7 @@ const Services: React.FC = () => {
               style={{ transitionDelay: `${index * 100}ms` }}
             >
               {pkg.isPopular && (
-                <div className="bg-gradient-to-r from-purple-600 to-pink-600 text-white text-center text-sm py-1 font-medium">
+                <div className="bg-gradient-to-r from-purple-600 to-accent-500 text-white text-center text-sm py-1 font-medium">
                   Cel Mai Popular
                 </div>
               )}
@@ -146,7 +146,7 @@ const Services: React.FC = () => {
                   href="#contact"
                   className={`block text-center py-3 px-5 rounded-full transition-all font-medium ${
                     pkg.isPopular
-                      ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white hover:from-purple-700 hover:to-pink-700'
+                      ? 'bg-gradient-to-r from-purple-600 to-accent-500 text-white hover:from-purple-700 hover:to-accent-700'
                       : 'bg-gray-800 text-white hover:bg-gray-700'
                   }`}
                 >
@@ -163,7 +163,7 @@ const Services: React.FC = () => {
           </p>
           <a
             href="#contact"
-            className="inline-block bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-medium py-3 px-8 rounded-full transition-all"
+            className="inline-block bg-gradient-to-r from-purple-600 to-accent-500 hover:from-purple-700 hover:to-accent-700 text-white font-medium py-3 px-8 rounded-full transition-all"
           >
             Solicită Ofertă Personalizată
           </a>

@@ -65,17 +65,17 @@ const About: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-accent-500">
               Despre Noi
             </span>
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-pink-600 mx-auto"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-accent-500 mx-auto"></div>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
           <div className={`transition-all duration-1000 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
             <div className="relative">
-              <div className="absolute -top-4 -left-4 w-32 h-32 md:w-64 md:h-64 bg-gradient-to-br from-purple-600 to-pink-600 opacity-20 rounded-lg"></div>
+              <div className="absolute -top-4 -left-4 w-32 h-32 md:w-64 md:h-64 bg-gradient-to-br from-purple-600 to-accent-500 opacity-20 rounded-lg"></div>
               <img
                 src="https://images.pexels.com/photos/2114365/pexels-photo-2114365.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt="DJ performing at an event"

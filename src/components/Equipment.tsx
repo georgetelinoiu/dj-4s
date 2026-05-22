@@ -38,11 +38,11 @@ const Equipment: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-accent-500">
               Echipamente Utilizate
             </span>
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-pink-600 mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-accent-500 mx-auto mb-6"></div>
           <p className="text-gray-300 max-w-3xl mx-auto">
             Echipamente Profesionale – Adaptate în Funcție de Locație și Numărul Invitaților
           </p>

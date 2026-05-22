@@ -24,8 +24,8 @@ const Hero: React.FC = () => {
       <div className="container mx-auto px-4 z-10">
         <div className={`text-center max-w-3xl mx-auto transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-            <span className="block">Ridică Evenimentul Tău cu</span>
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+            <span className="block">Completează Evenimentul Tău cu</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-accent-500">
               Muzică Excepțională
             </span>
           </h1>
@@ -36,7 +36,7 @@ const Hero: React.FC = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="#services"
-              className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-bold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105"
+              className="bg-gradient-to-r from-purple-600 to-accent-500 hover:from-purple-700 hover:to-accent-700 text-white font-bold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105"
             >
               Serviciile Noastre
             </a>

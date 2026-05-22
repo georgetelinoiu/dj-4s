@@ -1,5 +1,5 @@
 import React from 'react';
-import { Music, Heart } from 'lucide-react';
+import { Heart } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -7,11 +7,11 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-4 gap-8">
           <div className="md:col-span-1">
-            <div className="flex items-center gap-2 text-xl font-bold text-white mb-4">
-              <Music className="text-purple-500" size={28} strokeWidth={2} />
-              <span className="bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">
-                S4 Music Events
+            <div className="flex flex-col text-xl font-bold text-white mb-4">
+              <span>
+                <span className="text-white">S</span><span className="text-accent-500">4</span><span className="text-gray-400">Music</span>
               </span>
+              <span className="text-white">Events</span>
             </div>
             <p className="mb-6">
               Servicii profesionale de DJ și formație pentru toate ocaziile. Creăm experiențe muzicale de neuitat.
@@ -72,7 +72,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-start">
                 <span className="text-purple-500 mr-2">✉️</span>
-                <span>andreipatru303@gmail.com</span>
+                <span>patruevents@gmail.com</span>
               </li>
               <li className="flex items-start">
                 <span className="text-purple-500 mr-2">⏰</span>

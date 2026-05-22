@@ -40,11 +40,11 @@ const Contact: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-accent-500">
               Date de Contact
             </span>
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-pink-600 mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-accent-500 mx-auto mb-6"></div>
           <p className="text-gray-300 max-w-2xl mx-auto">
             Pregătit să faci evenimentul tău de neuitat? Contactează-ne astăzi pentru disponibilitate,
             prețuri și orice întrebări ai putea avea.
@@ -99,10 +99,10 @@ const Contact: React.FC = () => {
                   <div className="ml-4">
                     <h4 className="text-white font-medium">Email</h4>
                     <a
-                      href="mailto:andreipatru303@gmail.com"
+                      href="mailto:patruevents@gmail.com"
                       className="text-gray-400 hover:text-purple-400 transition-colors"
                     >
-                      andreipatru303@gmail.com
+                      patruevents@gmail.com
                     </a>
                   </div>
                 </div>
@@ -258,8 +258,8 @@ const Contact: React.FC = () => {
                   <button
                     type="submit"
                     disabled={formState.submitting}
-                    className={`w-full py-3 px-6 rounded-lg bg-gradient-to-r from-purple-600 to-pink-600 text-white font-medium flex items-center justify-center transition-all ${
-                      formState.submitting ? 'opacity-75 cursor-not-allowed' : 'hover:from-purple-700 hover:to-pink-700'
+                    className={`w-full py-3 px-6 rounded-lg bg-gradient-to-r from-purple-600 to-accent-500 text-white font-medium flex items-center justify-center transition-all ${
+                      formState.submitting ? 'opacity-75 cursor-not-allowed' : 'hover:from-purple-700 hover:to-accent-700'
                     }`}
                   >
                     {formState.submitting ? (
