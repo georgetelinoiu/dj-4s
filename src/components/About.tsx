@@ -87,7 +87,7 @@ const About: React.FC = () => {
           <div className={`transition-all duration-1000 delay-300 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'}`}>
             <h3 className="text-2xl font-bold mb-4">Servicii Profesionale de DJ & Muzică Live</h3>
             <p className="text-gray-300 mb-6">
-              4S Music Events oferă servicii profesionale de DJ și spectacole live, adaptate pentru o gamă variată de evenimente – de la petreceri private și evenimente corporate, până la momente acustice speciale.
+              S4 Music Events oferă servicii profesionale de DJ și spectacole live, adaptate pentru o gamă variată de evenimente – de la petreceri private și evenimente corporate, până la momente acustice speciale.
             </p>
             <p className="text-gray-300 mb-8">
               Echipa noastră reunește DJ experimentați și muzicieni talentați, pasionați de muzică și dedicați creării unor experiențe memorabile. Cu echipamente performante și un repertoriu muzical divers, asigurăm o atmosferă energică și captivantă, pe gustul fiecărui invitat.

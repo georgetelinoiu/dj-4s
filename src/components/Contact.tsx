@@ -112,7 +112,7 @@ const Contact: React.FC = () => {
                 <h4 className="text-lg font-medium mb-4">Urmărește-ne</h4>
                 <div className="flex space-x-4">
                   <a
-                    href="https://facebook.com/4Smusic.events"
+                    href="https://facebook.com/S4music.events"
                     className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-white hover:bg-purple-600 transition-colors"
                     target="_blank"
                     rel="noreferrer"
@@ -120,7 +120,7 @@ const Contact: React.FC = () => {
                     <Facebook size={20} />
                   </a>
                   <a
-                    href="https://instagram.com/4Smusic.events"
+                    href="https://www.instagram.com/s4music.events"
                     className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-white hover:bg-purple-600 transition-colors"
                     target="_blank"
                     rel="noreferrer"
