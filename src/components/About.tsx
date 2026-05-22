@@ -40,19 +40,19 @@ const About: React.FC = () => {
       name: 'Pătru Andrei',
       role: 'DJ',
       description: 'Cu o pasiune autentică pentru muzică și o cultură muzicală vastă în vârstă de 24 de ani, aduce la fiecare eveniment o latură modernă, plin de energie și rafinament sonor. Deschis către toate stilurile muzicale – de la pop, dance, house și hip-hop, până la muzică de petrecere sau oldies. Mixaje fluide și personalizate, tranziții fine între genuri și o atenție deosebită la detalii fac ca fiecare moment să curgă natural și energic, fără întreruperi.',
-      image: `${import.meta.env.BASE_URL}andrei.jpg`
+      image: `${import.meta.env.BASE_URL}andrei_1.jpeg`
     },
     {
       name: 'Silvia Ioniță',
       role: 'Solistă Principală',
       description: 'Având 22 de ani, a terminat liceul de muzica "Dinu Lipatti", fiind in prezent studentă la prestigioasa Universitate de Muzica din București pe secția de jazz vocal/instrumental. Poate adopta orice stil muzical, de la muzică ușoară la jazz, la muzică de petrecere și inclusiv instrumental pian.',
-      image: `${import.meta.env.BASE_URL}silvia.jpg`
+      image: `${import.meta.env.BASE_URL}silvia_1.jpeg`
     },
     {
       name: 'Rosian Alexandru',
       role: 'Solist și Chitarist',
       description: 'Având 24 de ani, solist pasionat de chitară și voce, cu experiență muzicală din copilărie, activând de la 7 ani în muzica ușoară, folk, pop, rock, muzică de petrecere.',
-      image: `${import.meta.env.BASE_URL}alex.jpg`
+      image: `${import.meta.env.BASE_URL}alex.jpeg`
     }
   ];
 
