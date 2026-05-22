@@ -46,13 +46,13 @@ const About: React.FC = () => {
       name: 'Silvia Ioniță',
       role: 'Solistă Principală',
       description: 'Având 22 de ani, a terminat liceul de muzica "Dinu Lipatti", fiind in prezent studentă la prestigioasa Universitate de Muzica din București pe secția de jazz vocal/instrumental. Poate adopta orice stil muzical, de la muzică ușoară la jazz, la muzică de petrecere și inclusiv instrumental pian.',
-      image: `${import.meta.env.BASE_URL}/silvia.jpg`
+      image: `${import.meta.env.BASE_URL}silvia.jpg`
     },
     {
       name: 'Rosian Alexandru',
       role: 'Solist și Chitarist',
       description: 'Având 24 de ani, solist pasionat de chitară și voce, cu experiență muzicală din copilărie, activând de la 7 ani în muzica ușoară, folk, pop, rock, muzică de petrecere.',
-      image: `${import.meta.env.BASE_URL}/alex.jpg`
+      image: `${import.meta.env.BASE_URL}alex.jpg`
     }
   ];
 
