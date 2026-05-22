@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
             <div className="flex items-center gap-2 text-xl font-bold text-white mb-4">
               <Music className="text-purple-500" size={28} strokeWidth={2} />
               <span className="bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">
-                4S Music Events
+                S4 Music Events
               </span>
             </div>
             <p className="mb-6">
@@ -86,7 +86,7 @@ const Footer: React.FC = () => {
           <p className="flex items-center justify-center gap-1">
             <span>Realizat cu</span>
             <Heart className="text-pink-500" size={16} fill="currentColor" />
-            <span>de 4S Music Events © {new Date().getFullYear()}. Toate drepturile rezervate.</span>
+            <span>de S4 Music Events © {new Date().getFullYear()}. Toate drepturile rezervate.</span>
           </p>
         </div>
       </div>
